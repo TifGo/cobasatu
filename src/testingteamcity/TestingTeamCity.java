@@ -16,7 +16,10 @@ public class TestingTeamCity {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        int p = 80;
+        int l = 70;
+        int L = p*l;
+        System.out.println("Luas=" + (L));
     }
     
 }

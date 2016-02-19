@@ -21,7 +21,7 @@ public class Persegi {
     public Persegi(double panjang, double lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
-        this.luas = panjang * lebar /0;
+        this.luas = panjang * lebar / 0;
     }
     
 }

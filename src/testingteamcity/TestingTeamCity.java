@@ -16,7 +16,7 @@ public class TestingTeamCity {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int p = 80;
+        int p = 90;
         int l = 70;
         int L = p*l;
         System.out.println("Luas=" + (L));

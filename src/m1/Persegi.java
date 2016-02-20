@@ -36,7 +36,7 @@ public class Persegi {
         return luas;
     }
     
-    public void setLebat(double lebar) {
+    public void setLebar(double lebar) {
         if(lebar > 0) {
             this.lebar = lebar;
         }

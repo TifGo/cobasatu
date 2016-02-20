@@ -13,15 +13,27 @@ package m1;
 public class Persegi {
     
     // Atribut
-    public double panjang;
-    public double lebar;
-    public double luas;
+    private double panjang;
+    private double lebar;
+    private double luas;
     
     // Konstruktor
     public Persegi(double panjang, double lebar) {
         this.panjang = panjang;
         this.lebar = lebar;
-        this.luas = panjang * lebar / 0;
+        this.luas = panjang * lebar;
+    }
+    
+    public double getPanjang() {
+        return panjang;
+    }
+    
+    public double getLebar() {
+        return lebar;
+    }
+    
+    public double getLuas() {
+        return luas;
     }
     
 }

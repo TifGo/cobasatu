@@ -6,6 +6,9 @@
 
 package testingteamcity;
 
+import java.util.Scanner;
+import m1.Persegi;
+
 /**
  *
  * @author affandeZone
@@ -16,10 +19,17 @@ public class TestingTeamCity {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int p = 90;
-        int l = 70;
-        int L = p*l;
-        System.out.println("Luas=" + (L));
+        // Scanner
+        Scanner x = new Scanner(System.in);
+        // Ambil Panjang dan Lebar
+        System.out.print("Panjang: ");
+        double p = x.nextDouble();
+        System.out.print("Lebar: ");
+        double l = x.nextDouble();
+        // Buat persegi
+        Persegi persegi = new Persegi(p,l);
+        // Print luas
+        System.out.println("Luas = " + persegi.getLuas());
     }
     
 }

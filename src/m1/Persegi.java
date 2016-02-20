@@ -36,4 +36,11 @@ public class Persegi {
         return luas;
     }
     
+    public void setLebat(double lebar) {
+        if(lebar > 0) {
+            this.lebar = lebar;
+        }
+        this.luas = this.panjang * this.lebar;
+    }
+    
 }
